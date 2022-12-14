@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 18px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  list-style-type: none;
+  margin: 0 0.5rem;
+  color: #d3d4d6;
+}
+
+#hero {
+  background-color: #1f2937;
+}
+
+.hero-container{
+  width: 1000px;
+  margin: auto;
+  padding: 82px 18px;
+  display: flex;
+  gap: 2rem;
+}
+
+.hero-container img {
+  width: 700px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.hero-messages {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1 1 75%;
+}
+
+.hero-messages h1 {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.hero-messages p {
+  font-size: 18px;
+  color: #d3d4d6;
+}
+
+.hero-messages button {
+  text-align: center;
+  width: 20%;
+  padding: 10px;
+  border: 0;
+  border-radius: 8px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
