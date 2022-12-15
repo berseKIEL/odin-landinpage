@@ -6,6 +6,10 @@
     <!-- Importing CSS -->
     <link rel="stylesheet" href="static/styles/style.css" />
 
+    <!-- Importing Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,300&display=swap" rel="stylesheet" />
     <title>Landing Page</title>
   </head>
   <body>
@@ -13,9 +17,15 @@
       <nav>
         <h1>Header Logo</h1>
         <ul>
-          <li>Header link one</li>
-          <li>Header link two</li>
-          <li>Header link three</li>
+          <li>
+            <a href="">Header link one</a>
+          </li>
+          <li>
+            <a href="">Header link two</a>
+          </li>
+          <li>
+            <a href="">Header link three</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -24,18 +34,53 @@
       <section id="hero">
         <div class="hero-container">
           <div class="hero-messages">
-            <h1>This Website is Awesome</h1>
+            <h1>This website is awesome</h1>
             <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower constrast</p>
             <button>Sign up</button>
           </div>
           <img src="https://cdn.pixabay.com/photo/2022/12/10/11/05/snow-7646952_960_720.jpg" alt="Snow forest" />
         </div>
       </section>
-      <section id="illustration"></section>
-      <section id="quote"></section>
-      <section id="button"></section>
+      <section id="information">
+        <h1>Some random information</h1>
+        <div class="information-container">
+          <div class="information-content">
+            <div class="information-box"></div>
+            <p>This is some subtext under an illustration or image</p>
+          </div>
+          <div class="information-content">
+            <div class="information-box"></div>
+            <p>This is some subtext under an illustration or image</p>
+          </div>
+          <div class="information-content">
+            <div class="information-box"></div>
+            <p>This is some subtext under an illustration or image</p>
+          </div>
+          <div class="information-content">
+            <div class="information-box"></div>
+            <p>This is some subtext under an illustration or image</p>
+          </div>
+        </div>
+      </section>
+      <section id="quote">
+        <div class="quote-container">
+          <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who Knows? All I Know is that it looks nice</p>
+          <h3>-Thor, God of Thunder</h3>
+        </div>
+      </section>
+      <section id="button">
+        <div class="button-container">
+          <div class="button-text">
+            <span>Call to action! It's time!</span>
+            <p>Sign up for our product by clickin that button right over there</p>
+          </div>
+          <button>Sign up</button>
+        </div>
+      </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <p>Copyright &copy;	The Odin Project 2022</p>
+    </footer>
   </body>
 </html>

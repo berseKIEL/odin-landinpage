@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -29,11 +30,16 @@ nav li {
   color: #d3d4d6;
 }
 
+nav li a {
+  text-decoration: none;
+  color: inherit;
+}
+
 #hero {
   background-color: #1f2937;
 }
 
-.hero-container{
+.hero-container {
   width: 1000px;
   margin: auto;
   padding: 82px 18px;
@@ -73,5 +79,109 @@ nav li {
   background-color: #3882f6;
   color: #f9faf8;
   font-weight: bold;
+  cursor: pointer;
 }
 
+#information {
+  background-color: #fff;
+  margin: 48px;
+  margin-bottom: 108px;
+}
+
+#information h1 {
+  text-align: center;
+  margin-bottom: 48px;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.information-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.information-content {
+  width: 170px;
+  text-align: center;
+}
+
+.information-box {
+  width: 100%;
+  height: 170px;
+  border: 4px solid #3882f6;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.information-content p {
+  font-size: 18px;
+  color: #33373d;
+}
+
+#quote {
+  background-color: #e5e7eb;
+  padding: 140px 150px;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quote-container p {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+}
+.quote-container h3 {
+  color: #1f2937;
+  text-align: right;
+  margin-right: 30px;
+}
+
+#button {
+  margin: 68px 250px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #3882f6;
+  padding: 40px 80px;
+}
+
+.button-text span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.button-text p {
+  font-size: 16px;
+  font-weight: 100;
+  color: #f9faf8;
+}
+
+.button-container button {
+  text-align: center;
+  padding: 10px 40px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
