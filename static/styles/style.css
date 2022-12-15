@@ -139,7 +139,7 @@ nav li a {
 }
 .quote-container h3 {
   color: #1f2937;
-  text-align: right;
+  align-self: flex-end;
   margin-right: 30px;
 }
 
